@@ -1,0 +1,22 @@
+{
+  "id": "test-dashboard",
+  "name": "Test Dashboard",
+  "version": "1.0.0",
+  "description": "Interactive test plugin with custom admin page, sidebar integration, and real-time UI updates",
+  "author": {
+    "name": "GSM Flow Team",
+    "email": "support@gsmflow.com",
+    "url": "https://gsmflow.com"
+  },
+  "license": "MIT",
+  "sdkVersion": "^1.0.0",
+  "entry": "https://cdn.jsdelivr.net/gh/sawyelin1011/plugin-test-dashboard@master/dist/index.js",
+  "extensionPoints": [
+    "admin.sidebar.item",
+    "admin.page"
+  ],
+  "permissions": [
+    "ui.render",
+    "admin.access"
+  ]
+}
